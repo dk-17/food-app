@@ -1,0 +1,34 @@
+body{
+  max-width: 500px;
+  margin-left: 750px;
+ margin-top:60px;
+}
+.NewUsers {
+ margin-bottom: 40px;
+ font-size: 20px;
+}
+
+.Form-section {
+ margin-bottom: 20px;
+}
+
+.Form-input {
+ font-size: 20px;
+ padding: 8px;
+ background-color: rgb(218, 215, 215);
+ border:0 solid black;
+ border-radius: 8px;
+
+}
+
+.Form-submit {
+ font-size: 20px;
+ padding:8px;
+ background-color: rgb(68, 175, 68);
+ border:0;
+ border-radius: 8px;
+}
+.FormInput-label{
+  font-size:20px;
+  color: rgb(24, 22, 22);
+}

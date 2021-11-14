@@ -1,0 +1,22 @@
+<h1 class = "HomePageTitle"> Welcome to Delicous Catering! </h1>
+
+<section class="UsersNew">
+   <%= form_with url: users_path do |form| %>
+
+         <div class="Form-section">
+            <p class="FormInput-label"> Email </p>
+              <%= form.email_field :email, class: "Form-input" %>
+         </div>
+         <div class="Form-section">
+            <p class="FormInput-label"> Password </p>
+            <%= form.password_field :password, class: "Form-input" %>
+        </div>
+
+        <div class="Form-section">
+           <%= form.submit "Login!", class: "Form-submit" %>
+        </div>
+    <% end %>
+
+</section>
+
+<p class= "NewUsers"> Don't have an account yet? <%= link_to "sign up here", new_user_path %> </p>
